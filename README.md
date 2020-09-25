@@ -4,7 +4,7 @@
 > Projeto para aplicar todos os conhecimentos adquiridos no dia dia.
 
 # License
-![GitHub](https://img.shields.io/github/license/wesleyosantos91/spring-sandbox)
+![GitHub](https://img.shields.io/github/license/wesleyosantos91/spring-sandbox?style=for-the-badgex)
 
 # Tecnologias
 - Java 14
