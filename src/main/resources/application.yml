@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${DATABASE_URL}
-    username: ${DATABASE_USERNAME}
-    password: ${DATABASE_PASSWORD}
+    url: ${DATABASE_URL:jdbc:mysql://localhost:3306/dev}
+    username: ${DATABASE_USERNAME:root}
+    password: ${DATABASE_PASSWORD:root}
   jpa:
     hibernate:
       use-new-id-generator-mappings: false
@@ -11,7 +11,7 @@ spring:
     properties:
       hibernate.format_sql: true
   flyway:
-    url: ${DATABASE_URL}
-    user: ${DATABASE_USERNAME}
-    password: ${DATABASE_PASSWORD}
+    url: ${DATABASE_URL:jdbc:mysql://localhost:3306/dev}
+    user: ${DATABASE_USERNAME:root}
+    password: ${DATABASE_PASSWORD:root}
     locations: classpath:/db/migration

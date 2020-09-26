@@ -1,0 +1,13 @@
+GET http://localhost:8080/v1/pessoas
+Accept: application/json
+###
+
+POST http://localhost:8080/v1/pessoas
+Content-Type: application/json
+
+{
+  "nome": "Wesley Oliveira Santos",
+  "data_nascimento": "1991-06-12",
+  "email": "wesleyosantos91@gmail.com",
+  "cpf": "03669252100"
+}

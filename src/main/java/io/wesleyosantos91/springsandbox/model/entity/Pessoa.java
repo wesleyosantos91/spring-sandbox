@@ -1,5 +1,6 @@
 package io.wesleyosantos91.springsandbox.model.entity;
 
+import io.wesleyosantos91.springsandbox.model.request.RequestPostPessoa;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -39,4 +40,13 @@ public class Pessoa {
 
     @Column(name = "email")
     private String email;
+
+    public static Pessoa toPessoa(RequestPostPessoa body) {
+        return Pessoa.builder()
+                .nome(body.nome())
+                .dataNascimento(body.dataNacimento())
+                .cpf(body.cpf())
+                .email(body.email())
+                .build();
+    }
 }
