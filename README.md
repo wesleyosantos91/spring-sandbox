@@ -12,6 +12,7 @@
     - spring-boot-starter-web
     - spring-boot-starter-data-jpa
     - spring-boot-devtools
+    - spring-boot-starter-validation
 - Flywaydb
 - Lombok
 - Mysql
