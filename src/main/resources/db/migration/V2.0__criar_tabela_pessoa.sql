@@ -4,4 +4,4 @@ CREATE TABLE pessoa (
 	data_nascimento DATE NOT NULL,
 	cpf VARCHAR(11),
 	email VARCHAR(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
