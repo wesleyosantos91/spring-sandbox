@@ -22,6 +22,7 @@
         <java.version>14</java.version>
         <testcontainers.version>1.14.3</testcontainers.version>
         <jacoco-maven-plugin.version>0.8.2</jacoco-maven-plugin.version>
+        <sonar.java.source>14</sonar.java.source>
     </properties>
 
     <developers>
@@ -84,12 +85,6 @@
             <artifactId>mysql</artifactId>
             <version>${testcontainers.version}</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.sonarsource.java</groupId>
-            <artifactId>sonar-java-plugin</artifactId>
-            <version>6.6.0.22815</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
