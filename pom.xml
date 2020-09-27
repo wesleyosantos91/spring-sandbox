@@ -21,8 +21,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>14</java.version>
         <testcontainers.version>1.14.3</testcontainers.version>
+        <reflections.version>0.9.11</reflections.version>
         <jacoco-maven-plugin.version>0.8.2</jacoco-maven-plugin.version>
-        <sonar.java.source>14</sonar.java.source>
     </properties>
 
     <developers>
@@ -85,6 +85,12 @@
             <artifactId>mysql</artifactId>
             <version>${testcontainers.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>${reflections.version}</version>
         </dependency>
 
         <dependency>

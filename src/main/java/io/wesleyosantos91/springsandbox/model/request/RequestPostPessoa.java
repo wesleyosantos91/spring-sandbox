@@ -1,7 +1,6 @@
 package io.wesleyosantos91.springsandbox.model.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import io.wesleyosantos91.springsandbox.model.entity.Pessoa;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
