@@ -1,6 +1,7 @@
 package io.wesleyosantos91.springsandbox.model.entity;
 
 import io.wesleyosantos91.springsandbox.model.request.RequestPostPessoa;
+import io.wesleyosantos91.springsandbox.model.request.RequestPutPessoa;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -47,6 +48,14 @@ public class Pessoa implements Serializable {
                 .nome(body.nome())
                 .dataNascimento(body.dataNacimento())
                 .cpf(body.cpf())
+                .email(body.email())
+                .build();
+    }
+
+    public static Pessoa toPessoa(RequestPutPessoa body) {
+        return Pessoa.builder()
+                .nome(body.nome())
+                .dataNascimento(body.dataNacimento())
                 .email(body.email())
                 .build();
     }

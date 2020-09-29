@@ -2,12 +2,31 @@ GET http://localhost:8080/v1/pessoas
 Accept: application/json
 ###
 
+GET http://localhost:8080/v1/pessoas/1
+Accept: application/json
+###
+
 POST http://localhost:8080/v1/pessoas
 Content-Type: application/json
 
 {
-  "nome": "Wesley Oliveira Santos",
-  "data_nascimento": "1991-06-12",
-  "email": "wesleyosantos91@gmail.com",
-  "cpf": "03669252100"
+  "nome": "Roberto Daniel André da Silva",
+  "data_nascimento": "1964-06-12",
+  "email": "robertodanielandredasilva_@oliveiracontabil.com.br",
+  "cpf": "68103169811"
 }
+###
+
+PUT http://localhost:8080/v1/pessoas/3
+Content-Type: application/json
+
+{
+  "nome": "Osvaldo Igor Costa",
+  "data_nascimento": "1996-01-08",
+  "email": "osvaldoigorcosta_@pib.com.br"
+}
+###
+
+DELETE http://localhost:8080/v1/pessoas/1
+Accept: application/json
+###
