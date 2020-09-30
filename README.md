@@ -14,6 +14,7 @@
     - spring-boot-devtools
     - spring-boot-starter-validation
     - spring-boot-starter-hateoas
+    - spring-cloud-starter-netflix-hystrix (pattern circuit breaker)
 - Flywaydb
 - Lombok
 - Mysql
