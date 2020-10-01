@@ -15,7 +15,6 @@ spring:
     user: ${DATABASE_USERNAME:root}
     password: ${DATABASE_PASSWORD:root}
     locations: classpath:/db/migration
-
 hystrix:
   threadpool:
     default:
@@ -38,3 +37,6 @@ hystrix:
           strategy: THREAD
           thread:
             timeoutInMilliseconds: 4000
+
+project:
+    version: @project.version@

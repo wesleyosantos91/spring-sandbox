@@ -15,6 +15,9 @@
     - spring-boot-starter-validation
     - spring-boot-starter-hateoas
     - spring-cloud-starter-netflix-hystrix (pattern circuit breaker)
+- Swagger
+    - springfox-swagger2
+    - springfox-swagger-ui
 - Flywaydb
 - Lombok
 - Mysql
@@ -39,6 +42,9 @@ A execução das aplicações são feitas através do de um comando Maven que en
     -  ```./mvnw clean compile verify sonar:sonar```
     
 # Utilização
+
+## Swagger
+http://localhost:8080/swagger-ui.html
 
 ## Sonar
 http://localhost:9000/
