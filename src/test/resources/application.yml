@@ -12,4 +12,4 @@ spring:
     password: ${spring.datasource.password}
     locations: classpath:/db/migration
 project:
-  version: 1
+    version: 1.0.0

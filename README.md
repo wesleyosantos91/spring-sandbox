@@ -3,6 +3,9 @@
 ## APLICAÇÃO SPRING BOOT
 > Projeto para aplicar todos os conhecimentos adquiridos no dia dia.
 
+# Integração contínua
+[![Build Status](https://travis-ci.org/wesleyosantos91/spring-sandbox.svg?branch=master)](https://travis-ci.org/wesleyosantos91/spring-sandbox)
+
 # License
 ![GitHub](https://img.shields.io/github/license/wesleyosantos91/spring-sandbox?style=for-the-badgex)
 
