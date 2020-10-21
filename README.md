@@ -13,6 +13,8 @@
     - spring-boot-starter-data-jpa
     - spring-boot-devtools
     - spring-boot-starter-validation
+    - spring-boot-starter-cache
+    - spring-boot-starter-data-redis
     - spring-boot-starter-hateoas
     - spring-cloud-starter-netflix-hystrix (pattern circuit breaker)
 - Swagger
@@ -21,6 +23,7 @@
 - Flywaydb
 - Lombok
 - Mysql
+- Redis
 - Junit 5
 - Mockito
 - Rest Assured

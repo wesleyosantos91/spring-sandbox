@@ -5,6 +5,7 @@ import io.swagger.annotations.ApiModelProperty;
 import io.wesleyosantos91.springsandbox.model.entity.Pessoa;
 import lombok.AllArgsConstructor;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
 import lombok.Getter;
@@ -12,7 +13,7 @@ import org.springframework.hateoas.RepresentationModel;
 
 @Getter
 @AllArgsConstructor
-public class ResponsePessoa extends RepresentationModel<ResponsePessoa> {
+public class ResponsePessoa extends RepresentationModel<ResponsePessoa> implements Serializable {
 
     @ApiModelProperty(example = "1")
     private Long codigo;

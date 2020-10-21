@@ -11,3 +11,5 @@ spring:
     user: ${spring.datasource.username}
     password: ${spring.datasource.password}
     locations: classpath:/db/migration
+project:
+  version: 1

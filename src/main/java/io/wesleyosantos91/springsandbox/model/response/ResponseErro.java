@@ -7,10 +7,15 @@ import java.time.OffsetDateTime;
 
 public record ResponseErro(
         @ApiModelProperty(example = "404")
-        @JsonProperty Integer status,
+        @JsonProperty Integer httpCode,
 
         @ApiModelProperty(example = "Not Found")
-        @JsonProperty String erro,
+        @JsonProperty String httpMessage,
+
+
+        @ApiModelProperty(example = "Not found pesssoa")
+        @JsonProperty
+        String erro,
 
         @ApiModelProperty(example = "Pessoa com código 1 não encontrado")
         @JsonProperty String mensagem,
