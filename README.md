@@ -20,6 +20,7 @@
     - spring-boot-starter-data-redis
     - spring-boot-starter-hateoas
     - spring-cloud-starter-netflix-hystrix (pattern circuit breaker)
+    - spring-boot-starter-security
 - Swagger
     - springfox-swagger2
     - springfox-swagger-ui

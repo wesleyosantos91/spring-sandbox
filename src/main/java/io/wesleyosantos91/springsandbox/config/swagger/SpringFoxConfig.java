@@ -1,4 +1,4 @@
-package io.wesleyosantos91.springsandbox.config;
+package io.wesleyosantos91.springsandbox.config.swagger;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
